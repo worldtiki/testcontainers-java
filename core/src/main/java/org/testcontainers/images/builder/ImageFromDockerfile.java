@@ -14,16 +14,10 @@ import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.testcontainers.DockerClientFactory;
 import org.testcontainers.images.builder.traits.*;
-import org.testcontainers.utility.Base58;
-import org.testcontainers.utility.DockerLoggerFactory;
-import org.testcontainers.utility.LazyFuture;
+import org.testcontainers.utility.*;
 
-import java.io.IOException;
-import java.io.PipedInputStream;
-import java.io.PipedOutputStream;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.io.*;
+import java.util.*;
 import java.util.zip.GZIPOutputStream;
 
 @Slf4j
